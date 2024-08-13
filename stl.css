@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+    width: 200px; /* Set the width of the menu bar */
+    background-color: #333;
+    position: fixed; /* Fix the menu bar on the left side */
+    height: 100%; /* Make the menu bar take full height of the viewport */
+    top: 0;
+    left: 0;
+    padding-top: 20px; /* Add some padding at the top */
+}
+
+.menu {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 10px 0; /* Add some space between menu items */
+}
+
+.menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: white;
+    display: block; /* Make links block-level for easy padding and background color */
+    padding: 10px 15px; /* Add some padding around the text */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.menu a:hover {
+    background-color: #575757; /* Change background color on hover */
+}
+
+.content {
+    margin-left: 220px; /* Leave space for the menu bar */
+    padding: 20px;
+}
